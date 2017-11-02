@@ -1,0 +1,21 @@
+#container-outer {
+    overflow: hidden;
+    background: #eee;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #container-inner {
+    float:left;
+    background: #555;
+    width: 30%;
+  }
+  #sidebar {
+    float: left;
+    width: 100%;
+  }
+  #content {
+    width: 230%;
+    left: 100%;
+    margin-left: 100%;
+  }
