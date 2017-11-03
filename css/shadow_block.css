@@ -1,0 +1,71 @@
+.top, .bottom {
+  background-color: #9deee0;
+  padding: 5%;
+}
+
+.top {
+  max-width: 250px;
+  margin-bottom: -2px;
+  border: 2px solid #608d85;
+  border-bottom: none;
+  position: relative;
+  padding: 0;
+}
+
+.top::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 40px;
+  margin: -42px -2px 0 -2px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  z-index: -3;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 0 5%;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.bottom {
+  border: 2px solid #608d85;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+/* body,div{
+    padding:10px;}
+  div{
+    background:rgb(177,216,120);
+    box-shadow:0 0 3px 2px rgb(138,193,55);
+  }
+  div.head{
+    overflow:hidden;
+    border-radius:8px 8px 0 0;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
+    max-width:250px;
+  }
+  div.head::after{
+    background:rgb(177,216,120);
+    /* content:"Заголовок";
+    color:rgb(177,216,120); */
+    /* position:absolute;
+    top:50px;
+    display:block;
+    margin-left:-10px;
+    padding-right:20px;
+  }
+  div.body{
+    min-height:150px;
+    border-radius:0 0 8px 8px;
+  }  */
