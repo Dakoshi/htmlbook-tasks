@@ -1,0 +1,34 @@
+
+
+.outer {
+    margin: 30px;
+    width: 250px;
+    position: absolute;
+    border: 2px solid black;
+    line-height: 30px;
+}
+
+.inner {
+    position: relative;
+    width: 250px;
+}
+
+.bg_left, .bg_right {
+    width: 50%;
+    float: left;
+}
+
+.bg_left {
+    background-color: #e8f388;
+}
+
+.bg_right {
+    text-align: right;
+}
+
+.bg_right::before {
+    content: "50%";
+    position: relative;
+    left: -100%;
+    margin-right: -18px;
+}
